@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.SignupForm {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SignupForm h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.SignupForm input[type="text"],
+.SignupForm input[type="password"] {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.SignupForm button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.AuthenticateButton {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AuthenticateButton button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.AuthenticateButton .bg-green-500 {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.AuthenticateButton .bg-red-500 {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.text-green-500 {
+  color: #28a745;
+}
+
+.text-red-500 {
+  color: #dc3545;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
